@@ -5,7 +5,7 @@ const http = require( "node:http" ),
     // However, Glitch will install it automatically by looking in your package.json
     // file.
     mime = require( "mime" ),
-    dir  = "public/",
+    dir  = "Public/",
     port = 3000
 
 const server = http.createServer( function( request,response ) {
