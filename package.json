@@ -1,7 +1,15 @@
 {
-  "name": "creative-exercise-BSuria",
-  "version": "1.0.0",
+  "name": "in-class-assignment",
+  "version": "0.1.0",
+  "description": "In-ClassAssignment",
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^4.21.2"
+    "mime": "^2.4.4"
+  },
+  "engines": {
+    "node":"16.x"
   }
 }
